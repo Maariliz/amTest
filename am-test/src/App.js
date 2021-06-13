@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import './App.css';
-import Inicio from './Componentes/PantallaInicial/inicio'
-import Estudiantes from './Componentes/Personajes/Estudiantes';
-import Staff from './Componentes/Personajes/Staff';
+import Inicio from './Componentes/PantallaInicial/Navegacion'
+import CardsStudents from './Componentes/Personajes/CardsStudents';
+// import Staff from './Componentes/Personajes/Staff';
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,11 +18,11 @@ function App() {
             <Inicio/>
           </Route>
           <Route path ='/estudiantes'>
-            <Estudiantes/>
+            <CardsStudents />
           </Route>
-          <Route path ='/staff'>
+          {/* <Route path ='/staff'>
             <Staff/>
-          </Route>
+          </Route>  */}
         </Switch>
       </Router>
     </Fragment>
