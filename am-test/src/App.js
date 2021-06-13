@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import './App.css';
-import Inicio from './Componentes/PantallaInicial/Navegacion'
+import Inicio from './Componentes/PantallaInicial/Home'
 import CardsStudents from './Componentes/Personajes/CardsStudents';
 // import Staff from './Componentes/Personajes/Staff';
 import {

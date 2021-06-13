@@ -19,6 +19,7 @@ const CardsStaff = () => {
         apiRequest();
     },[])
    
+    
 //    const status = (alive) => { 
         
 //         if (alive === true){
@@ -46,6 +47,8 @@ const CardsStaff = () => {
             {data.map (elemento => {
                 return(
                     <div key= { elemento.name}>
+                        <p> {elemento.alive === true ? 'VIVO' : 'FINADO'} / {elemento.hogwartsStudent === true ? 'ESTUDIANTE' : 'STAFF'}
+                        </p>
                         <img src={elemento.image} alt='personaje'/> 
                         <h3>{elemento.name}</h3>
                         <p>Cumpleaños: {elemento.dateOfBirth} </p>

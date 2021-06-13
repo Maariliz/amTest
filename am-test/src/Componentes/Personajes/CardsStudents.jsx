@@ -19,23 +19,6 @@ const CardsStudents = () => {
         apiRequest();
     },[])
    
-//    const status = (alive) => { 
-        
-//         if (alive === true){
-//             return 'VIVO';
-//         }else{
-//             return 'FINADO'
-//         }
-//     }
-
-//     const rol = (hogwartsStudent) => {
-        
-//         if ( hogwartsStudent === true){
-//             return 'ESTUDIANTE';
-//         }else{
-//             return 'STAFF'
-//         }
-//     } 
 
     
 
@@ -46,6 +29,9 @@ const CardsStudents = () => {
             {data.map (elemento => {
                 return(
                     <div key= { elemento.name}>
+                        
+                        <p> {elemento.alive === true ? 'VIVO' : 'FINADO'} / {elemento.hogwartsStudent === true ? 'ESTUDIANTE' : 'STAFF'}
+                        </p>
                         <img src={elemento.image} alt='personaje'/> 
                         <h3>{elemento.name}</h3>
                         <p>Cumpleaños: {elemento.dateOfBirth} </p>
