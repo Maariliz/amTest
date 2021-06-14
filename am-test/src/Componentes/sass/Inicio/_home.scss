@@ -48,23 +48,23 @@ body{
 }
 
 
-.btnsFooter{
-    background: #6B63B5;
-    border-radius: 4px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 25px;
-    /* or 147% */
-    text-align: center;
-    letter-spacing: 0.2em;
-    color: #FFFFFF;
-    display: inline-flex;
-    justify-content: baseline;
-    flex-direction: row;
-    align-items: flex-end;
-}
+// .btnsFooter{
+//     background: #6B63B5;
+//     border-radius: 4px;
+//     font-family: Open Sans;
+//     font-style: normal;
+//     font-weight: 600;
+//     font-size: 17px;
+//     line-height: 5px;
+//     text-align: center;
+//     letter-spacing: 0.2em;
+//     color: #FFFFFF;
+//     display: inline-flex;
+//     justify-content: baseline;
+//     flex-direction: row;
+//     align-items: flex-end;
+//     height: 15px;
+// }
 
 .headerButtons{
     display: flex;
@@ -76,5 +76,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
