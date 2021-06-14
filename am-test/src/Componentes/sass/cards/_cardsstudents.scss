@@ -1,0 +1,63 @@
+
+
+    
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+// .personajesContainer{
+//     display: flex;
+//     justify-content: center;
+//     flex-flow: row-wrap;
+// }
+
+
+.cardsContainer{
+   
+    background: #FFFFFF;
+    border-radius: 16px;
+    height: 120px;
+    width: 181px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row-wrap;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #FFFFFF;
+    
+    & .information{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 120px;
+        width: 181px;
+        color: black;
+        font-size: 12;
+    }
+
+}
+ 
+
+.charImg{
+    width: 70px;
+    height: 70px;
+   
+    border-radius: 50%;
+}
+
+.headCard{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-center;
+    flex-direction: row;
+    margin-right: 10px;
+    
+}
+
+
+
+
+

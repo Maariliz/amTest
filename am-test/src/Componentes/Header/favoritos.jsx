@@ -4,9 +4,9 @@ const Favoritos = () => {
     return (
         <div>
             <footer>
-                <button>
+                
                     Favoritos
-                </button>
+               
             </footer>
             
         </div>
