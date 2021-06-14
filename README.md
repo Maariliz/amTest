@@ -2,7 +2,7 @@
 
 ## ¿Cómo desplegar esta aplicación? 🚀
 
-**Primeros pasos** * (Asumiendo que ya cuentas con git instalado en tu computadora, un IDE y una terminal):* Hacer fork del proyecto, posteriormente git clone, y npm i para instalar las dependencias empleadas. Desplegar el server: como uno de los requerimientos, este proyecto se realiza con json server por lo que se debe desplegar nuestro servidor: abrir la terminar y ejecutar el comando *npm run mock-api*
+**Primeros pasos** *(Asumiendo que ya cuentas con git instalado en tu computadora, un IDE y una terminal):* Hacer fork del proyecto, posteriormente git clone, y npm i para instalar las dependencias empleadas. Desplegar el server: como uno de los requerimientos, este proyecto se realiza con json server por lo que se debe desplegar nuestro servidor: abrir la terminar y ejecutar el comando *npm run mock-api*
 Desplegar el local: ¡Asegurarte de que la ruta mostrada en la terminal es correcta! y ejecuta el comando * npm start *
 
 
@@ -24,4 +24,8 @@ Me hubiera gustado que mi función de AGREGAR guarde la data, porque en este mom
 
 - El renderizado de los estilos de las tarjetas de los personajes según su casa de Hogwarts
 
-- No es como tal un pain point o bug, pero me gustaría comentar que fue mi primera vez usando SASS, JSON Server y Redux. En ocasiones anteriores había usado otras herramientas para crear mocks de API's y por lo regular siempre uso css puro en los estilos. Entonces al leer el reto me enfrenté a muchas curvas de aprendizaje a la vez y aunque no completé todas las funcionalidades, si me llevo bastante aprendizaje
+- Me gustaría mencionar que fue mi primera vez usando * SASS, JSON Server y Redux. * En ocasiones anteriores había usado otras herramientas para crear mocks de API's y por lo regular siempre uso css puro en los estilos. Entonces al leer el reto me enfrenté a muchas curvas de aprendizaje a la vez y aunque no completé todas las funcionalidades, si me llevo bastante aprendizaje: 
+- Un pain point al que me enfrenté fue el renderizado de los estilos de las tarjetas de los personajes según su casa de Hogwarts, sin embargo logré afrontarlo una vez que comprendí la lógica de las variables en SASS y cómo ayudan a optimizar este tipo de procesos. 
+- Tambien tuve un bug para llamar la data, lo solucioné empleando axios y haciendo la petición a la url correspondiente.
+
+
