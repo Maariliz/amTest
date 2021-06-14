@@ -117,4 +117,4 @@ const AddCharacter = () => {
     </>
   );
 }
-export default AddCharacter
+export default AddCharacter;
