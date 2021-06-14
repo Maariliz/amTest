@@ -1,5 +1,7 @@
 #HarryPotter UI ⚡
+
 ##¿Cómo desplegar esta aplicación? 🚀
+
 **Primeros pasos** * (Asumiendo que ya cuentas con git instalado en tu computadora, un IDE y una terminal):* Hacer fork del proyecto, posteriormente git clone, y npm i para instalar las dependencias empleadas. Desplegar el server: como uno de los requerimientos, este proyecto se realiza con json server por lo que se debe desplegar nuestro servidor: abrir la terminar y ejecutar el comando *npm run mock-api*
 Desplegar el local: ¡Asegurarte de que la ruta mostrada en la terminal es correcta! y ejecuta el comando * npm start *
 ##Mi proceso de desarrollo 💻
