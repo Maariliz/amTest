@@ -24,12 +24,13 @@ const Home  = () => {
     }
     return (
         <div className='backgroundAsstes'>
-            <div>
-               <img src={naming} alt="HarryPotterLogo"/>
-            </div>
-            <header > 
+            <header className='headerButtons' > 
                 <HandleHeader/>
             </header>
+            <div className="harryPotterLogo">
+               <img src={naming} alt="HarryPotterLogo"/>
+            </div>
+            
             <div className="containerButtons">
                     <button className="btnsFilter" onClick={handleCardsStudents}>Estudiantes</button>
                     <button className="btnsFilter" onClick={handleCardStaff}>Staff</button>

@@ -3,6 +3,20 @@
 body{
     background-color: #000000;
     color: #FFFFFF;
+    background-image: url('https://wallpapercave.com/wp/bGdF3Go.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: none;
+    width: 90%;
+    height: 80%;
+}
+
+.containersButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 .btnsFilter{
@@ -20,6 +34,7 @@ body{
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
+   
     &:hover {
         background: rgba(107, 99, 181);
         border-radius: 4px;
@@ -49,5 +64,17 @@ body{
     justify-content: baseline;
     flex-direction: row;
     align-items: flex-end;
+}
+
+.headerButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.harryPotterLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 

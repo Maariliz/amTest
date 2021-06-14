@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import AddCharacter from "./ModalAdd";
+import { Icon } from '@iconify/react';
+import bookmarkIcon from '@iconify-icons/bi/bookmark';
+//import userAddOutlined from '@iconify-icons/ant-design/user-add-outlined';
+
 
 const HandleHeader = () => {
     const [isOpenModal, setIsOpenModal]= useState(true);
@@ -17,11 +21,14 @@ const HandleHeader = () => {
   
     }
     return (
-        <div className='buttonsFooter'>
+        <div className='buttonsHeaderContainer'>
           <section className='buttonsFooter'>
             <button className='btnsFooter'
-            > FAVORITOS </button>
-            <button className='btnsFooter' onClick={openModal}> AGREGAR </button>
+            > FAVORITOS <Icon type='button' icon={bookmarkIcon}/> 
+            </button>
+            <button className='btnsFooter' onClick={openModal}
+            > AGREGAR 
+            </button>
             <AddCharacter
               isOpen={isOpenModal}
               closeModal={closeModal}/>

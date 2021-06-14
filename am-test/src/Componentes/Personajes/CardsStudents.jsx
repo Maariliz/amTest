@@ -3,6 +3,7 @@ import axios from 'axios'
 import { Icon } from '@iconify/react';
 import bookmarkIcon from '@iconify-icons/bi/bookmark';
 
+
 const dataAPI = 'http://localhost:5000/students'
 const CardsStudents = () => {
     const [data, setData] = useState([]);
@@ -20,19 +21,23 @@ const CardsStudents = () => {
         apiRequest();
     },[])
    
-
-    
-
     return (
-         <div className="personajesList">
+        <div className="personajesList">
             <div className='personajesContainer'>
 
             {data.map (elemento => {
                 return(
                     <div className='cardsContainer' key= { elemento.name}>
+                        
+                        <div id="picturesContainer" className={elemento.house === 'Ravenclaw' ? 'imgRavenclaw' 
+                        : elemento.house === 'Slytherin' ? 'imgSlytherin'
+                        : elemento.house === 'Hufflepuff' ? 'imgHufflepuff' : 'imgGryffindor' }> 
                         <div className="pictures"> 
                         <img className="charImg" src={elemento.image} alt='personaje' width='50'/> 
                         </div>
+                        </div>
+                        
+                        
                         <div className="dataContainer">
                         <div className="headCard">
                             <Icon type='button' icon={bookmarkIcon}/>                                             
@@ -41,10 +46,10 @@ const CardsStudents = () => {
                         </div>
                         <div className='information'>
                             <h3>{elemento.name}</h3>
-                            <p>Cumpleaños: {elemento.dateOfBirth} </p>
-                            <p>Género: {elemento.gender} </p>
-                            <p>Color de ojos: {elemento.eyeColour} </p>
-                            <p>Color de pelo: {elemento.hairColour}</p>
+                            <p> <b>Cumpleaños:</b> {elemento.dateOfBirth} </p>
+                            <p> <b>Género:</b> {elemento.gender} </p>
+                            <p> <b>Color de ojos:</b> {elemento.eyeColour} </p>
+                            <p> <b>Color de pelo:</b> {elemento.hairColour}</p>
                         </div>
                     </div>    
                     </div> 

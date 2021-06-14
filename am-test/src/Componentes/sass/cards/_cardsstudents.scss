@@ -1,54 +1,62 @@
-
-
-    
-
 body{
-    background-color: #000000;
+   
     color: #FFFFFF;
+    
 }
-// .personajesContainer{
-//     display: flex;
-//     justify-content: center;
-//     flex-flow: row-wrap;
-// }
+
 
 
 .cardsContainer{
    
     background: #FFFFFF;
     border-radius: 16px;
-    height: 120px;
-    width: 181px;
-    display: flex;
+    width: 565px;
+    height: 285px;
+    display: inline-flex;
     justify-content: center;
+    align-items: center ;
     flex-flow: row-wrap;
-    margin-left: 25px;
+    margin-left: 100px;
     margin-right: 25px;
-    color: #FFFFFF;
     
-    & .information{
+    margin-bottom: 40px;
+    
+    & .information, .headCard{
         display: flex;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
         height: 120px;
         width: 181px;
-        color: black;
+        color: #374A59;
         font-size: 12;
+        text-align: center;
+        line-height: 2px;
+        margin-top: 2px;
     }
 
+}
+
+.pictures{
+    width: 350px;
+    height: 285px;
+    
+   
 }
  
 
 .charImg{
-    width: 70px;
-    height: 70px;
-   
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    display: flex;
+    align-items: center ;
+    
 }
 
 .headCard{
-    display: inline-flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     justify-content: space-center;
@@ -56,6 +64,21 @@ body{
     margin-right: 10px;
     
 }
+
+
+
+.imgSlytherin{
+    background: $slytherin;
+  }
+.imgGryffindor{
+    background: $gryffindor;
+  }
+.imgRavenclaw{
+    background: $ravenclaw;
+  }
+.imgHufflepuff{
+    background: $hufflepuff;
+  }
 
 
 
