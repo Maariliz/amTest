@@ -1,7 +1,0 @@
-const actionTypes = {
-    SET_FAVORITES: "SET_FAVORITES",
-    SELECTED_FAVORITE: "SELECTED_FAVORITE",
-    REMOVE_SELECTED_FAVORITE: "REMOVE_SELECTED_FAVORITE",
-  };
-  
-  export default actionTypes
