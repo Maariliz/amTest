@@ -8,12 +8,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Provider } from 'react-redux'
-import store from './Componentes/redux/store';
+
 
 function App() {
   return (
-  <Provider store={store}> 
+ 
     <Fragment>
       <Router>
         <Switch>
@@ -23,7 +22,7 @@ function App() {
         </Switch>
       </Router>
     </Fragment>
-    </Provider> 
+    
   );
 }
 
