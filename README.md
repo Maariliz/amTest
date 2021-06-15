@@ -14,11 +14,11 @@ Desplegar el local: ¡Asegurarte de que la ruta mostrada en la terminal es corre
 - Antes de este proyecto, no había tenido la oportunidad de realizar algún proyecto con SASS y creo que esta fue la oportunidad perfecta. Me gustó mucho la forma en que se pueden crear las variable pues abre todo un mundo de posibilidades para desarrollar los estilos de una manera más agradable. 
 
 #### Si hubiera tenido más tiempo ¿Qué me hubiera mejorado o qué mas hubiera hecho? ⌛
+- Desarrollar el modo responsive
+- Me hubiera gustado que mi función de AGREGAR guarde la data, porque en este momento la ventana modal solo la crea. Y para finalizar, construir las pruebas unitarias. 
+- Creo que la curva de aprendizaje de Redux es larga pero me resultó interesante la forma en que se maneja, por lo que me hubiera gustado tener más tiempo para documentarme acerca de redux de una forma más sólida y terminar la ejecución de estos requerimientos. 
 
 
-Creo que la curva de aprendizaje de Redux es larga pero me resultó interesante la forma en que se maneja, por lo que me hubiera gustado tener más tiempo para documentarme acerca de redux de una forma más sólida y terminar la ejecución de estos requerimientos. 
-
-Me hubiera gustado que mi función de AGREGAR guarde la data, porque en este momento la ventana modal solo la crea. Y para finalizar, construir las pruebas unitarias. 
 
 #### ¿Cuáles fueron mis pain points y bugs y cómo lo solucioné? 🙌
 
